@@ -1,0 +1,11 @@
+--------------------------------info[01:41:02]--------------------------------
+System.Exception: Windows shutdown UnsetProxy
+
+ 
+--------------------------------Application_ThreadException[01:41:02]--------------------------------
+System.OverflowException: 算术运算导致溢出。
+   在 v2rayN.HttpProxyHandler.ProxySetting.SetProxy(String strProxy, String exceptions)
+   在 v2rayN.Forms.MainForm.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+ 

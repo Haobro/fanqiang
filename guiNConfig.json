@@ -1,0 +1,77 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "www.free6666.net",
+      "port": 443,
+      "id": "1382eedb-da7e-4f4f-87d4-29ad00e8187b",
+      "alterId": 64,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/18425739/",
+      "streamSecurity": "tls",
+      "allowInsecure": "true",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "216.244.76.219",
+      "port": 54321,
+      "id": "3cf35a68-ea46-11e9-9cab-003048d37a3c",
+      "alterId": 64,
+      "security": "aes-128-gcm",
+      "network": "tcp",
+      "remarks": "",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "listenerType": 2,
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "statisticsFreshRate": 2000,
+  "CacheDays": 7,
+  "remoteDNS": null,
+  "subItem": [],
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  }
+}
